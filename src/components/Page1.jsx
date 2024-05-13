@@ -20,7 +20,8 @@ const Page1 = () => {
             mouth-watering, Nutritious, Satisfying, Savory, Tasty, Yummy.
             Appetizing, Delectable, Saccharine Food.
           </p>
-          <button
+          <a
+            href="#menu"
             className="relative my-4 px-4 py-2 rounded-full
            bg-white isolation-auto z-10 border-2 border-neutral-50 
             before:absolute before:w-full before:transition-all before:duration-700 
@@ -29,7 +30,7 @@ const Page1 = () => {
              before:hover:scale-150 overflow-hidden before:hover:duration-700 text-md font-semibold"
           >
             Explore More
-          </button>
+          </a>
         </div>
         <div className="w-full md:w-1/2 grid grid-cols-2 grid-rows-2  max-sm:h-[400px]  bg-white">
           <img
