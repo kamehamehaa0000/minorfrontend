@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import DishCard from './Shared/dishCard'
+import DishCard from './DishCard'
 import { makeAuthenticatedGETrequest } from '../utilities/apiCall'
 
 const Menu = () => {

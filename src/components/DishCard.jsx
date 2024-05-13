@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCart } from '../contexts/cart.context'
+import { useCart } from './contexts/cart.context'
 import { IoAdd } from 'react-icons/io5'
 
 const DishCard = ({ name, description, price, image, id }) => {
