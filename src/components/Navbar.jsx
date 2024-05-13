@@ -37,7 +37,7 @@ const Navbar = ({ isLoggedIn, userDets }) => {
             <a
               href="/user"
               className="capitalize"
-            >{`Hey, ${cookies?.details?.username[0]}`}</a>
+            >{`Hey, ${cookies?.details?.firstName[0]}`}</a>
             <button className="text-sm md:text-md" onClick={handleLogout}>
               Logout
             </button>
