@@ -44,6 +44,7 @@ const Login = () => {
       console.log(error)
       if (error.response && !error.response.data.success) {
         alert('Login Failed')
+        setLoading(false)
       } else {
         console.error('Unexpected error during login:')
       }
