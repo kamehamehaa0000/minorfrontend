@@ -10,6 +10,7 @@ import OrderForm from './OrderForm'
 import Page3 from './Page3'
 import Reservation from './Reservation'
 import UserPanel from './UserPanel'
+import AboutUs from './AboutUs'
 
 const Home = () => {
   const [cookie, setCookie] = useCookies(['authToken'])
@@ -23,6 +24,7 @@ const Home = () => {
       <Page2 />
       <Page3 />
       <Reservation />
+      <AboutUs />
       <Footer />
     </div>
   )

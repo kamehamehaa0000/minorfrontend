@@ -21,7 +21,7 @@ const Navbar = ({ isLoggedIn, userDets }) => {
         <a href="#home">
           <div className="hover:border-b-2">Home</div>
         </a>
-        <a href="#menu">
+        <a href="#services">
           <div className="hover:border-b-2">Services</div>
         </a>
         <a href="#reservation">

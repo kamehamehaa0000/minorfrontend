@@ -20,7 +20,6 @@ const UserPanel = ({ children }) => {
     }
   }
 
-  console.log(cookies)
   return (
     <div className="w-full text-white h-full flex items-center ">
       {isOpen && (

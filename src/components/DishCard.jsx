@@ -8,7 +8,7 @@ const DishCard = ({ name, description, price, image, id }) => {
     addItemToCart({ id, name, price })
   }
   return (
-    <div className=" relative w-2/5  md:max-w-[300px] min-h-[350px] md:min-h-[370px] sm:w-2/12 group border-2 m-4 max-h-[400px] rounded-lg hover:scale-105 overflow-hidden bg-white">
+    <div className="col-span-1 relative w-full min-h-[350px] md:min-h-[370px]  group border-2 my-4 max-h-[400px] rounded-lg hover:scale-105 overflow-hidden bg-white">
       <div className="h-6/12 overflow-hidden">
         <img
           src={image}

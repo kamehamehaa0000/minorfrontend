@@ -1,5 +1,7 @@
 import React from 'react'
-import Marquee from 'react-fast-marquee'
+import ser1 from '../assets/ser1.png'
+import ser2 from '../assets/ser2.png'
+import ser3 from '../assets/ser3.png'
 const Page3 = () => {
   return (
     <div className="w-full  flex flex-col items-center justify-center ">
@@ -11,7 +13,7 @@ const Page3 = () => {
           <h1 className="text-3xl md:text-[3.3vw] mt-10  font-bold ">
             Daal Makhni
           </h1>
-          <p className="py-8 text-lg leading-normal lg:text-[1vw] font-medium">
+          <p className=" md:py-8 text-md md:text-lg font-medium">
             Discover the star of our menu: Dal Makhni Slow-cooked lentils
             infused with aromatic spices create a rich, creamy stew that's both
             comforting and flavorful. Served with fragrant basmati rice, it's a
@@ -19,7 +21,7 @@ const Page3 = () => {
             Taste the tradition, experience the magic - only at our restaurant!
           </p>
 
-          <button className="relative mx-2 my-4 px-4 py-2 rounded-full bg-black isolation-auto z-10 border-2 border-black before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-green-500 text-white before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700">
+          <button className="relative mx-2 w-[150px] my-4 px-4 py-2 rounded-full bg-black isolation-auto z-10 border-2 border-black before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-green-500 text-white before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700">
             {' '}
             <a href="#menu">Explore More </a>
           </button>
@@ -33,47 +35,19 @@ const Page3 = () => {
           />
         </div>
       </div>
-      <div className="w-full flex items-center justify-center text-3xl font-bold my-5">
+      <div
+        id="services"
+        className="w-full flex items-center justify-center text-3xl font-bold my-5"
+      >
         Our Services
       </div>
-      <Marquee
-        className="h-[100px] rounded-md text-white"
-        gradient="true"
-        speed={100}
-        gradientWidth={100}
-        gradientColor="white"
-        direction="left"
-      >
-        <h1 className="text-4xl font-bold">
-          🌯🍱🍜🍲🍧🍨🧁🥞🧋🥞🧇🫐🍒🥐🐙🦞🍤🦪🦐🦀🍟🧋☕️🤍✨🥘🍳🔥🍖♨️🔥🥩🥓🍳🍠🧀🥧🍫
-        </h1>
-      </Marquee>
-      <Marquee
-        className="h-[100px]  rounded-md"
-        gradient="true"
-        speed={120}
-        gradientWidth={100}
-        gradientColor="white"
-        direction="right"
-      >
-        <h1 className="text-4xl md:text-5xl tracking-tighter font-bold">
-          {'<<'}Wide selection of Dishes || Easy booking process || Faster
-          takeaway & dine in || Wide selection of Dishes || Easy booking process
-          || Faster takeaway & dine in ||{' '}
-        </h1>
-      </Marquee>
-      <Marquee
-        className="h-[100px] rounded-md text-white"
-        gradient="true"
-        speed={100}
-        gradientWidth={100}
-        gradientColor="white"
-        direction="left"
-      >
-        <h1 className="text-4xl font-bold">
-          🌯🍱🍜🍲🍧🍨🧁🥞🧋🥞🧇🫐🍒🥐🐙🦞🍤🦪🦐🦀🍟🧋☕️🤍✨🥘🍳🔥🍖♨️🔥🥩🥓🍳🍠🧀🥧🍫
-        </h1>
-      </Marquee>
+      <div className="w-full my-10 flex items-center justify-center">
+        <div className="w-11/12 sm:shadow-2xl p-6 md:p-10 md:py-20 rounded-2xl flex flex-col sm:flex-row items-center justify-center gap-10 sm:w-8/12">
+          <img src={ser1} className="w-2/6 md:w-3/12 " />
+          <img src={ser2} className="w-2/6 md:w-3/12 " />
+          <img src={ser3} className="w-2/6 md:w-3/12 " />
+        </div>
+      </div>
     </div>
   )
 }
