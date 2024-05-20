@@ -2,6 +2,7 @@ import React from 'react'
 import ser1 from '../assets/ser1.png'
 import ser2 from '../assets/ser2.png'
 import ser3 from '../assets/ser3.png'
+import dalmakh from '../assets/dalmakh.png'
 const Page3 = () => {
   return (
     <div className="w-full  flex flex-col items-center justify-center ">
@@ -28,7 +29,7 @@ const Page3 = () => {
 
         <div className="w-full md:w-1/2 max-h-[300px] md:max-h-[550px] md:h-full md:rounded-e-xl overflow-hidden">
           <img
-            src="https://s3-alpha-sig.figma.com/img/9b3a/795c/2f9591210aaf188b1a41698993da4515?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eJ5Gl5pZDQa0AiP~dCxcHdI507MqEACO1x16SjIN1vgbszXShlscrhYm1n8vcDO5KvgOfJI-FPF7htqzSmQ2AdqekddozBDIqq0EF9IgUUPeqrW6jILS2~0V~et6KYYq5QukkBKGfjckpo17sc7oeauObJ~FfBbmISjZFMdPW0OjjuMlaapucJsbPo7Q5-Z6WlDpoKHsyxSDvTpxkbWMQY-vfYADvg4OJJjuBulb9KimRvnyhPioMYJ5ZpnMuF0J8ugCRhb8vbeHzTRO0zNY2QQJkhVAJ33I-GVc80mnTst~BNVBxj6rzZcpWxL1SKiQIzFL6ldZgr2EhaRcBJOkjg__"
+            src={dalmakh}
             alt=""
             className="w-full h-full object-center object-cover"
           />

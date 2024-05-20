@@ -1,11 +1,15 @@
 import React from 'react'
 import { useCart } from './contexts/cart.context'
 import { IoAdd } from 'react-icons/io5'
-
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 const DishCard = ({ name, description, price, image, id }) => {
   const { addItemToCart } = useCart()
   const handleAddToCart = () => {
     addItemToCart({ id, name, price })
+    toast.success('Item added to cart', {
+      theme: 'colored',
+    })
   }
   return (
     <div className="col-span-1 relative w-full min-h-[350px] md:min-h-[370px]  group border-2 my-4 max-h-[400px] rounded-lg hover:scale-105 overflow-hidden bg-white">
