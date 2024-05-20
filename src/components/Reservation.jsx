@@ -4,6 +4,7 @@ import TextInput from './Shared/TextInput'
 import { useCookies } from 'react-cookie'
 import extractErrorMessage from '../utilities/extractErrorMsg'
 import { makeAuthenticatedPOSTrequest } from '../utilities/apiCall'
+import res from '../assets/res.png'
 const Reservation = () => {
   const [time, setTime] = useState('')
   const [date, setDate] = useState('')
@@ -58,7 +59,7 @@ const Reservation = () => {
       <div className="flex flex-col md:flex-row md:max-h-[600px] w-11/12 md:w-8/12 h-full shadow-xl rounded-xl">
         <div className="w-full sm:w-1/2 overflow-hidden">
           <img
-            src="https://s3-alpha-sig.figma.com/img/87b8/2510/60dce437200ff8b9998e58b286c200b9?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ibCghOlVcGht~xBGR94ZIeomvoyNzyi-237XafN4CftS07e5YCXdJCWKJN1PxUZaWoRtrt7k-Ls7CqPkrCDiPgENFagg6osfWnYU2ZSOplsp-7kYXLMq7tpuFm3oYVopRZwG0xyxSopjLhdi8mnFYoUwt4tlHJS9p-R~pg77cKO7V3QX704bYmO524ZPiOmR7rRl73cJmipp1sy-8wz6u5Mmq95dRSnYdtHtGbmd8bV6H5yR-I3POIlWCYitQg6m3CL5Cvo6ecO8cB3ohhcvsPX8zfgnm09liU7TsM~ZGmzK16c5x~8njs2SPSwzVIStARq5NxJBqbi-JhP1a3uRYw__"
+            src={res}
             alt=""
             className="rounded-xl sm:rounded-s-xl sm:rounded-e-none h-full w-full object-cover object-center"
           />
